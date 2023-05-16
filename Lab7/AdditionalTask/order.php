@@ -115,7 +115,7 @@ $email_content = $email_content.$tableIngredients;
 
 $user_email_content = '<h3>Вы сделали заказ в БГУИРПицца. Спасибо за заказ!</h3>'.$email_content;
 
-$sendPost = new SendPost('ilya@holanto.com');
+$sendPost = new SendPost('test@test.com');
 
 $sendPost->sendEmail($email, 'Заказ - БГУИРПицца', $user_email_content);
 $sendPost->sendEmail($sendPost->manager_email, 'Заказ - БГУИРПицца', $email_content);
