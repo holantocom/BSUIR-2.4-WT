@@ -3,7 +3,7 @@
 class SendPost
 {
     public $manager_email;
-    private $from_email = 'webmaster@holanto.com';
+    private $from_email = 'test@test.com';
     
     function __construct($manager_email) 
     {
