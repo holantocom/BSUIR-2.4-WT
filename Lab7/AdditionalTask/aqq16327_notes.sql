@@ -132,7 +132,7 @@ CREATE TABLE `pizza_order` (
 --
 
 INSERT INTO `pizza_order` (`id`, `self_delivery`, `customer_name`, `customer_email`, `location`, `comment`, `status`, `price`) VALUES
-(1, 0, 'Илья', 'ilya@holanto.com', 'Гикало 9', 'В 4 корпус БГУИР', 'DONE', 968);
+(1, 0, 'Илья', 'test@test.com', 'Гикало 9', 'В 4 корпус БГУИР', 'DONE', 968);
 
 -- --------------------------------------------------------
 
