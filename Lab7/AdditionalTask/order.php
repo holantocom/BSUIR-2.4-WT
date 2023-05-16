@@ -121,5 +121,5 @@ $sendPost->sendEmail($email, 'Заказ - БГУИРПицца', $user_email_co
 $sendPost->sendEmail($sendPost->manager_email, 'Заказ - БГУИРПицца', $email_content);
 
 echo '<script type="text/javascript">
-    window.location = "https://holanto.com/projects/WT/7lab/add/"
+    window.location = "URL/WT/7lab/add/"
 </script>';
