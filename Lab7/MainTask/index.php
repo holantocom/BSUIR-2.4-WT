@@ -5,7 +5,7 @@ if(isset($_POST['submit'])){
     
     if (($_POST["captcha"] != "") && ($_POST["captcha"] == $_SESSION["rand_code"])){
         
-        $server_mail = "webmaster@holanto.com";
+        $server_mail = "test@test.com";
         $to = $_POST['email'];
         $subject = "=?UTF-8?B?".base64_encode("Форма обратной связи")."?=";
         //$subject = "Форма обратной связи";
@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
         $message .= "Номер телефона: ".$_POST['phone']."\n";
         $message .= "Сообщение: ".$_POST['message']."\n";
         
-        $headers = "From: holanto <$server_mail> \r\n";
+        $headers = "From: Delivery <$server_mail> \r\n";
         $headers .= "MIME-Version: 1.0 \r\n";
         $headers .= "Content-type: text/plain; charset=utf-8 \r\n";
         $headers .="Reply-To: $server_mail \r\n" ;
