@@ -8,7 +8,7 @@ spl_autoload_register('my_autoloader');
 
 $repo = new Controller( Database::getInstance() );
 $mysqli = Database::getInstance()->getConnection();
-$sendPost = new SendPost('ilya@holanto.com');
+$sendPost = new SendPost('test@test.com');
 
 $auth = new auth();
 $hash = $_COOKIE['auth_session'] ?? '';
